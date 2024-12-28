@@ -61,7 +61,7 @@ h4{
     /* margin-bottom: 10px; */
     grid-template-columns: repeat(Auto-Fit, Minmax(200px,1fr));
     grid-template-rows: repeat(Auto-Fit, Minmax(200px,1fr));
-    gap:50px;
+    gap:60px;
 }
 .box{
     background-color:#333;
