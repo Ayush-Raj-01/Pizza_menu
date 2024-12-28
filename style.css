@@ -55,7 +55,7 @@ h4{
 .grid-container{
     display: grid;
     /* background-color: #ddd; */
-    padding-left: 75px;
+    padding-left: 65px;
     padding-right: 150px;
     padding-top: 20px;
     padding-bottom: 30px;
@@ -70,7 +70,7 @@ h4{
     padding: 20px;
     font-size: 18px;
     text-align: center;
-    height: 520px;
+    height: 600px;
     width: 250px;
 }
 .box img{
