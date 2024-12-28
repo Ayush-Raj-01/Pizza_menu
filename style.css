@@ -14,10 +14,7 @@ h1{
     margin: 10px;
     text-align: center;
 }
-.box h1{
-    margin: 10px; 
-    text-align: none;
-}
+
 h2{
     background-color:#bae1ff;
     text-align: center;
@@ -65,7 +62,7 @@ h4{
     /* margin-bottom: 10px; */
     grid-template-columns: repeat(Auto-Fit, Minmax(200px,1fr));
     grid-template-rows: repeat(Auto-Fit, Minmax(200px,1fr));
-    gap:70px;
+    gap:80px;
 }
 .box{
     background-color:#333;
