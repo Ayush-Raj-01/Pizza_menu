@@ -70,7 +70,7 @@ h4{
     padding: 20px;
     font-size: 18px;
     text-align: center;
-    height: 600px;
+    height: 555px;
     width: 250px;
 }
 .box img{
@@ -85,7 +85,7 @@ h4{
     color: aliceblue;
 }
 .box button{
-    margin-bottom: 15px;
+    margin-top:60px;
     border-radius: 15px;
     padding: 8px;
     background-color: #c94444;
