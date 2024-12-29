@@ -32,38 +32,29 @@ h4{
 }
 .head1 h2{
     background-color: #8cfe9f;
-    /* display: block; */
     padding-left: 80px;
     padding-right: 80px;
     
 }
 .head2 h2{
     background-color: #f25a3f;
-    /* display: block; */
     padding-left: 80px;
     padding-right: 80px;
 }
 .head1{
-    /* margin-left: 200px;
-    margin-right: 150px; */
     justify-items: center;
 }
 .head2{
-    /* margin-left: 200px;
-    margin-right: 150px; */
     justify-items: center;
 }
 .grid-container{
     display: grid;
-    /* background-color: #ddd; */
     padding-left: 65px;
-    padding-right: 150px;
+    padding-right: 65px;
     padding-top: 20px;
     padding-bottom: 30px;
-    /* margin-bottom: 10px; */
-    grid-template-columns: repeat(Auto-Fit, Minmax(200px,1fr));
-    grid-template-rows: repeat(Auto-Fit, Minmax(200px,1fr));
-    gap:80px;
+    grid-template-columns: repeat(Auto-Fit, Minmax(250px,1fr));
+    gap:30px;
 }
 .box{
     background-color:#333;
@@ -71,59 +62,55 @@ h4{
     padding: 20px;
     font-size: 18px;
     text-align: center;
-    height: 430px;
-    width: 250px;
+    height: 450px;
+    /* width: 250px; */
     display: grid;
     grid-template-rows: auto auto 1fr auto auto;
+    align-items:stretch;
     gap: 10px;
 }
 .box img{
-    width: 250px;
+    width: 100%;
     height:270px;
     object-fit: cover;
-    grid-row: 1;
+    /* grid-row: 1; */
 }
 .box h1{
-    grid-row: 2;
+    /* grid-row: 2; */
     font-size: 18px;
     margin: 0;
 }
 .box h6{
-    grid-row: 3;
+    /* grid-row: 3; */
     text-align: left;
-    /* padding:0; */
     margin: 0;
     font-size: small;
     color: aliceblue;
+    min-height: 50px;
 }
 .box h4{
-    grid-row: 4;
+    /* grid-row: 4; */
     margin: 5px 0;
 }
 .button-container {
-    grid-row: 5;
+    /* grid-row: 5; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    margin-top: 10px;
+    align-self: end;
+    /* margin-top: 10px; */
 }
 .button-container button{
-    /* margin-top:70px; */
-    border-radius: 10px;
+    /* margin-bottom:10px; */
+    border-radius: 15px;
     border: none;
     padding: 10px;
     background-color: #c94444;
     color: white;
-    /* margin-right: 20px; */
     cursor: pointer;
     font-size: 14px;
-    text-align: center;
+    /* text-align: center; */
 }
-/* .box .btn{
-    margin-left: 50px;
-    margin-right: 0;
+.button-container button:hover {
+    background-color: #a83232;
 }
-.box .btn1{
-   margin: 0;
-    border:5px solid;
-} */
