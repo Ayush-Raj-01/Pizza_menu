@@ -33,18 +33,19 @@ h4{
 .head1 h2{
     background-color: #8cfe9f;
     /* display: block; */
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    
 }
 .head2 h2{
     background-color: #f25a3f;
     /* display: block; */
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 .head1{
-    margin-left: 200px;
-    margin-right: 150px;
+    /* margin-left: 200px;
+    margin-right: 150px; */
     justify-items: center;
 }
 .head2{
@@ -70,7 +71,7 @@ h4{
     padding: 20px;
     font-size: 18px;
     text-align: center;
-    height: 450px;
+    height: 400px;
     width: 250px;
     display: grid;
     grid-template-rows: auto auto 1fr auto auto;
