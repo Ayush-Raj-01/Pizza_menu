@@ -20,11 +20,12 @@ Welcome to the Pizza Card Website project! This is a fully responsive web applic
 
 # 🚀 How to Use
 
-  1. Clone the repository:
+ 1. Clone the repository:
 
    git clone: https://github.com/Ayush-Raj-01/Pizza_menu.git
 
   2.Open the index.html file in your browser to view the website.
+  
   3.Explore the delicious pizza categories and their details.
 
 
