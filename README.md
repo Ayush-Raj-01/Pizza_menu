@@ -35,4 +35,3 @@ Welcome to the Pizza Card Website project! This is a fully responsive web applic
   
 
 ![Pizza Card - Personal - Microsoft​ Edge 29-12-2024 20_19_02](https://github.com/user-attachments/assets/75fa44b8-ce1b-4fd4-89e7-5c3d2a66362b)
-
